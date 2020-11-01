@@ -8,6 +8,10 @@ About 4x times faster than [PyJWT](https://github.com/jpadilla/pyjwt).
 $ pip install tokenhmac
 ```
 
+[![Downloads](https://pepy.tech/badge/tokenhmac)](https://pepy.tech/project/tokenhmac)
+[![Downloads](https://pepy.tech/badge/tokenhmac/month)](https://pepy.tech/project/tokenhmac/month)
+[![Downloads](https://pepy.tech/badge/tokenhmac/week)](https://pepy.tech/project/tokenhmac/week)
+
 ## Examples
 
 ```python
