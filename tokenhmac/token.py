@@ -2,7 +2,7 @@ import base64
 import binascii
 import hashlib
 from hmac import HMAC, compare_digest
-from typing import Callable
+from typing import Callable, Union
 
 
 class TokenError(Exception):
@@ -10,7 +10,7 @@ class TokenError(Exception):
 
 
 class TokenHMAC:
-    def __init__(self, key: str, algorithm: Callable = hashlib.sha256):
+    def __init__(self, key: Union[bytes, str], algorithm: Callable = hashlib.sha256):
         if isinstance(key, str):
             self.key = key.encode("utf-8")
 
