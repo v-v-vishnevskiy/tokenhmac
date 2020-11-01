@@ -1,0 +1,8 @@
+__pycache__
+pip-wheel-metadata
+.idea
+.vscode
+.mypy_cache
+*.egg-info
+*.pyc
+.venv
