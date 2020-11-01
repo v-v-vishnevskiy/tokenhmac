@@ -54,3 +54,5 @@ print(encoded)
 json.loads(token.decode(encoded).decode("utf-8"))
 # {"id": 123, "msg": "Message"}
 ```
+## License
+`tokenhmac` is offered under the MIT license.
